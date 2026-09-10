@@ -74,7 +74,7 @@
 "Settings.AIControls.AIPoweredFeaturesSection.BlockedStatus.v151" = "შეზღუდული";
 
 /* In the AI Controls settings, in the AI powered features section, this is the text that what the blocked status means. The content between the ** ** is bolded. Please do not remove these in translation. */
-"Settings.AIControls.AIPoweredFeaturesSection.BlockedStatusDescription.v151" = "**შეზღუდული**: ვერ იხილავთ და ვერ გამოიყენებთ ამ შესაძლებლობას. მოწყობილობაზე მომუშავე ხელგონი ან წინათ ჩამოტვირთული ნებისმიერი მოდელი მოცილებულია.";
+"Settings.AIControls.AIPoweredFeaturesSection.BlockedStatusDescriptionV2.v151" = "**შეზღუდული**: ვერ იხილავთ და ვერ გამოიყენებთ ამ შესაძლებლობას. მოწყობილობაზე მომუშავე ხელგონი ან წინათ ჩამოტვირთული ნებისმიერი მოდელი მოცილებულია.";
 
 /* In the AI Controls settings, in the AI powered features section, this is the message that describes the pages summaries feature */
 "Settings.AIControls.AIPoweredFeaturesSection.PageSummariesSection.Message.v151" = "გვერდები და მათი შეჯამებები არასდროს შეინახება.";
@@ -107,7 +107,7 @@
 "Settings.AIControls.HeaderCard.Link.v151" = "ვრცლად";
 
 /* This is the message for the Header Card under the AI Controls settings section. */
-"Settings.AIControls.HeaderCard.Message.v151" = "ეს გულისხმობს, იყენებდეს თუ არა ხელგონის შესაძლებლობებს.";
+"Settings.AIControls.HeaderCard.Message.v151" = "იგულისხმება, გამოიყენებოდეს თუ არა ხელგონის შესაძლებლობები.";
 
 /* This is the title for the Header Card under the AI Controls settings section. %@ is the app name (e.g. Firefox). */
 "Settings.AIControls.HeaderCard.Title.v151" = "არჩევანის უფლებას ყოველთვის მოგცემთ %@";
@@ -179,7 +179,7 @@
 "Settings.CrashReports.Link.v136" = "ვრცლად";
 
 /* On the Settings screen, this is the subtitle text for a toggle which controls automatically sending crash reports. */
-"Settings.CrashReports.Message.v136" = "დაგვეხმარება ბრაუზერის ხარვეზების დადგენასა და მოგვარებაში.";
+"Settings.CrashReports.Message.v136" = "გვეხმარება ბრაუზერის ხარვეზების დადგენასა და მოგვარებაში.";
 
 /* On the Settings screen, this is the title text for a toggle which controls automatically sending crash reports. */
 "Settings.CrashReports.Title.v135" = "უეცარი გათიშვის მოხსენებების თვითგაგზავნა";
@@ -206,7 +206,7 @@
 "Settings.Notifications.SystemNotificationsDisabledMessage.v112" = "გამორთული გაქვთ %1$@-შეტყობინებები. ჩართეთ მოწყობილობის პარამეტრებიდან Settings > Notifications > %2$@";
 
 /* This is the description for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. %@ is the app name (e.g. Firefox). */
-"Settings.Notifications.TipsAndFeaturesNotificationsStatus.v112" = "გაეცანით სასარგებლო შესაძლებლობებსა რჩევებს, რომ მეტად სრულყოფილად გამოიყენოთ %@.";
+"Settings.Notifications.TipsAndFeaturesNotificationsStatus.v112" = "გაეცანით სასარგებლო შესაძლებლობებსა თუ რჩევებს, რომ მეტად სრულყოფილად გამოიყენოთ %@.";
 
 /* This is the title for the setting that toggles Tips and Features feature in the settings menu under the Notifications section. */
 "Settings.Notifications.TipsAndFeaturesNotificationsTitle.v112" = "რჩევები და შესაძლებლობები";
@@ -322,12 +322,6 @@
 /* This is the section title for the gestures features under the Summarize settings section. */
 "Settings.Summarize.GesturesSection.Title.v142" = "ჟესტები";
 
-/* The accessibility label for the language picker button in the Summarize settings. */
-"Settings.Summarize.LanguageSection.PickerButtonAccessibilityLabel.v149" = "აირჩიეთ ენა";
-
-/* The label for the picker option to select the preferred app language for the summarizer inside the Summarize settings. The preferred app language refers to the language that the user has selected to use for the app in the app settings. */
-"Settings.Summarize.LanguageSection.PreferredAppLanguageLabel.v149" = "პროგრამის სასურველი ენა";
-
 /* The title for the language choose section for the summarizer inside the Summarize settings. */
 "Settings.Summarize.LanguageSection.Title.v149" = "ენა";
 
@@ -378,6 +372,9 @@
 
 /* Footer text below the preferred languages list in the Translation settings screen. */
 "Settings.Translation.PreferredLanguages.Footer.v151" = "აირჩიეთ ამ ენებიდან თარგმნისას.";
+
+/* VoiceOver custom action label on a preferred language row in the Translation settings screen, used to remove that language from the list. */
+"Settings.Translation.PreferredLanguages.RemoveLanguageA11yAction.v151" = "წაშლა";
 
 /* Section header for the preferred languages list in the Translation settings screen. */
 "Settings.Translation.PreferredLanguages.SectionTitle.v151" = "სასურველი ენები";
